@@ -1,0 +1,257 @@
+
+
+.font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ }
+
+#navigation{
+    width: 1600px;
+    margin: 0 auto; 
+    background-color: #ffff
+    
+}
+.btn{
+   background-color: #469165;
+    width: 164px;
+    border-radius: 5px;
+    padding: 12px 16px;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+}
+#navigation .naigation-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+}
+#navigation .naigation-container .menu-item .menu{
+    display: flex;
+    gap: 32px;
+    width: 362px;
+    list-style: none;
+    text-decoration: none;
+}
+  ul li a {
+    text-decoration: none;
+  }
+  #banner{
+    width: 100%;
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #banner .banner-container{
+    
+    text-align: center;
+    margin: 115px 120px;
+  }
+    #banner .banner-container .access{
+       
+        width: 229px;
+        border: none;
+        border-radius: 1000px;
+        padding: 8px 12px;
+        background-color: #ffff;
+        color: #469165;
+        margin-bottom: 0px;
+        margin-top: 124px;
+    }
+#banner .banner-container h2{
+    width: 700px;
+    font-style: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    margin: 16px auto;
+
+}
+#banner .banner-container .hh{
+    color:#ffff;
+    margin-top: 16px;
+}
+#banner .banner-container .hhh{
+    color:#469165;
+    margin-top: 16px;
+}
+#banner .banner-container p{
+  width: 700px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 16px;
+  color: #ffff;
+  margin: 0 auto;
+}
+#banner .banner-container button{
+  width: 251px;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 180px;
+ 
+}
+#banner .banner-container .work{
+  width: 198px;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 180px;
+  border: 1px solid white;
+  border-radius: 4px;
+ padding: 12px 16px;
+ background-color: transparent;
+ color: #ffff;
+}
+
+
+#notes .heading{
+ margin:0 120px;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+
+}
+#notes .heading h1{
+  width: 1360px;
+  font-style: bold;
+  font-size: 48px;
+  color: #001931;
+  display: flex;
+  justify-content: center;
+  
+}
+#notes .heading p{
+  width: 1360px;
+ line-height: 20px;
+  font-size: 16px;
+  color: #627382;
+  margin-top: 16px;
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: center;
+}
+#notes .cards{
+  display: flex;
+  margin: 120px;
+  gap: 24px;
+  height: 300px;
+}
+#notes .cards h2{
+  text-align: center;
+}
+#notes .cards {
+  text-align: center;
+  }
+  #notes .cards .card{
+    box-shadow: 0px 0px 20px 0px #627382;
+    width: 322px;
+    padding: 24px;
+    padding-top: 84px;
+  }
+#notes .cards img{
+  background-color: #f95555;
+  width: 30px;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+
+
+
+#solution{
+  margin: 120px;
+}
+#solution .solution-container{
+  display: flex;
+  gap: 60px;
+}
+#solution .solution-container img{
+  width: 600px;
+  border-radius: 12px;
+}
+#solution .solution-container .solution-part{
+  margin: 102px 0;
+  width: 700px;
+ 
+}
+#solution .solution-container .solution-part h3{
+  width: 700px;
+  font-size: 19px;
+  line-height: 20px;
+  color: #30b868;
+
+}
+#solution .solution-container .solution-part h1{
+  font-size: 48px;
+  font-style: bold;
+  color: #001931;
+}
+#solution .solution-container .solution-part p{
+  width: 700px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+#solution .solution-container .solution-part ul{
+  margin-top: 42px;
+  gap: 16px;
+  color: #001931;
+  list-style-image: url(../assets/CheckCircle.png);
+
+}
+#think{
+  margin: 0 120px;
+}
+#think .think-container{
+  background-color: #f7f6f2;
+  padding: 80px 140px;
+  text-align: center;
+  margin: 0 120px 120px 120px;
+}
+#think .think-container h2{
+  font-style: bold;
+  font-size: 40px;
+}
+#think .think-container p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 24px;
+ 
+}
+
+.container .notes{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.container .notesp{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  background-color: #001931;
+}
+footer .social{
+   margin:120px 120px 80px 120px; 
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+footer .social h4{
+  width: 113px;
+  font-size:28pxpx;
+  color: #f7f6f2;
+}
+footer .social .icons{
+  display: flex;
+  gap: 16pxpx;
+}
+footer p{
+  text-align: center;
+  color: #f7f6f2;
+
+}
+footer .ff{
+  margin-bottom: 30px;
+}
