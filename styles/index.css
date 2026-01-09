@@ -4,13 +4,6 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
  }
-
-#navigation{
-    width: 1600px;
-    margin: 0 auto; 
-    background-color: #ffff
-    
-}
 .btn{
    background-color: #469165;
     width: 164px;
@@ -20,19 +13,38 @@
     color: #ffff;
     cursor: pointer;
 }
-#navigation .naigation-container{
+
+ #navigation{ 
+    width: 1600px;
+    margin: 0 auto; 
+    background-color: #ffff
+  }
+ #navi{ 
+    width: 1600px;
+    margin: 0 auto; 
+    background-color: #ffff
+  }
+
+ #navigation .naigation-container{ 
     display: flex;
     justify-content: space-between;
     padding: 16px 120px;
+     height: 92px;}
+ #navi .naigation-container{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+     height: 92px;
 }
-#navigation .naigation-container .menu-item .menu{
+ #navigation .naigation-container .menu-item .menu{ 
     display: flex;
     gap: 32px;
     width: 362px;
     list-style: none;
     text-decoration: none;
 }
-  ul li a {
+
+}ul li a { 
     text-decoration: none;
   }
   #banner{
@@ -41,11 +53,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 0 0  ;
   }
   #banner .banner-container{
     
     text-align: center;
-    margin: 115px 120px;
+    margin:0 120px;
   }
     #banner .banner-container .access{
        
