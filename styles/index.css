@@ -65,8 +65,11 @@ ul li a {
     
    background-color: #30b868;
    font-style: medium;
+    cursor: pointer;
    }
-
+#banner .banner-container .work{
+  cursor: pointer;
+}
     #banner .banner-container .access{
        
         width: 229px;
@@ -77,6 +80,7 @@ ul li a {
         color: #469165;
         margin-bottom: 0px;
         margin-top: 124px;
+        cursor: pointer;
     }
 #banner .banner-container h2{
     width: 700px;
